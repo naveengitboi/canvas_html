@@ -1,0 +1,45 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+
+
+#canvas
+{
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: black;
+}
+.settings
+{
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 450px;
+}
+
+.settings input
+{
+    border: none;
+    color: white;
+    margin: 0.05rem;
+    background-color: rgba(255, 255, 255, 0.176);
+    padding: 0.15rem;
+    font-size: 1.15rem;
+    font-family: Helvetica, sans-serif, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    outline: none;
+}
+
+.settings input:active
+{
+    border: none;
+    outline: none;
+}
